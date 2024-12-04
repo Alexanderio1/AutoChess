@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AutoChess.Classes
 {
-    internal abstract class Unit : ICloneable
+    public abstract class Unit : ICloneable
     {
         private int health;
         private int attackPower;
@@ -86,6 +86,8 @@ namespace AutoChess.Classes
             int reducedDamage = damage - Defense;
             return reducedDamage > 0 ? reducedDamage : 0;
         }
+
+        
 
         // Абстрактный метод для уникальных действий
         public abstract void UseAbility();
