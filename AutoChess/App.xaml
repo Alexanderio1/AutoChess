@@ -4,8 +4,7 @@
              xmlns:local="clr-namespace:AutoChess"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>
-c:\users\zirael\source\repos\autochess\autochess\app.xaml
-c:\users\zirael\source\repos\autochess\autochess\app.xaml.cs
+
